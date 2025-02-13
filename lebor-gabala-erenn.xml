@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lebor Gabála Érenn : a digital edition</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>Taylor edition</date>
+				</edition>
+				<respStmt>
+					<resp> Edited by </resp>
+					<persName>Jenyth Evans.<lb/>
+					</persName>
+
+				</respStmt>
+			</editionStmt>
+			<extent>1 folio.<note>partial</note></extent>
+			<publicationStmt>
+				<publisher>Taylor Institution Library, one of the Bodleian Libraries of the
+					University of Oxford, </publisher>
+				<date>2024. </date>
+				<availability>
+					<licence xml:id="xml_files" target="https://creativecommons.org/licenses/by-sa/4.0/"> XML files are
+						available for download under a <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+							Attribution-ShareAlike 4.0 International License</ref>
+						<graphic url="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>. </licence>
+
+				</availability>
+				<idno type="BOD">https://medieval.bodleian.ox.ac.uk/catalog/manuscript_8072</idno>
+
+				<idno type="ORA">https://ora.ox.ac.uk/objects/uuid:</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title xml:id="tayeditions">Taylor Editions: </title>
+				<title xml:id="manuscript">Manuscript</title>
+			</seriesStmt>
+			<notesStmt>
+				<note type="images">https://iiif.bodleian.ox.ac.uk/iiif/manifest/3ffc0cfc-ce63-4a6c-95c0-547f36b4333d.json</note>
+				<!-- Put the format of the accompanying images (values: "JPEG" (.jpg), "PNG" (.png), "TIFF2" (.tiff), "TIFF" (.tif), or a URI for IIIF.)-->
+				<note type="pbtype">Folio</note>
+				<note type="holding"><p>Transcribed from: <orgName>Bodleian Library</orgName>,
+						Oxford: MS. Rawl. B. 512, folio 76br. The images are reproduced from Digital
+						Bodleian: <ref target="https://digital.bodleian.ox.ac.uk/objects/3ffc0cfc-ce63-4a6c-95c0-547f36b4333d/surfaces/4ff67e5c-33d3-43e4-9247-a37e90d97938/">https://digital.bodleian.ox.ac.uk/objects/3ffc0cfc-ce63-4a6c-95c0-547f36b4333d/surfaces/4ff67e5c-33d3-43e4-9247-a37e90d97938/</ref>.</p></note>
+				<note type="intro">
+					<p>This is a facsimile and transcription of <title>Lebor Gabála Érenn.</title>. </p>
+					<p>The transcription was encoded in TEI P5 XML by Jenyth Evans. </p>
+				</note>
+			</notesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Oxford</settlement>
+						<repository>Bodleian Library</repository>
+						<idno>MS. Rawl. B. 512</idno>
+					</msIdentifier>
+					<msContents>
+						<p> Miscellaneous prose and verse, hagiography. </p>
+
+					</msContents>
+
+					<history>
+						<origin><p><origPlace>Ireland </origPlace> in <origDate when="1400">15th
+									century and early 16th century</origDate>
+							</p></origin>
+						<provenance>Bequeathed to the Bodleian in 1755 by <persName ref="https://medieval.bodleian.ox.ac.uk/catalog/person_47563478">Richard Rawlinson, 1690–1755</persName></provenance>
+					</history>
+				</msDesc>
+				<bibl type="citation"><title level="m">Lebor Gabála Érenn.</title>
+					<bibl>Ireland, <date when="1400">15th to early 16th century</date></bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+			<projectDesc>
+				<p>Created by encoding transcription from manuscript.</p>
+			</projectDesc>
+			<editorialDecl>
+				
+				<p>This is a semi-diplomatic transcription, with an accompanying translation.</p>
+				<p>Abbreviations can be optionally expanded by clicking on them. When an
+					abbreviation is expanded, diacritics are supplied as appropriate, following the
+					standard forms given in the Dictionary of the Irish Language. (For example, 'ní'
+					is given with its appropriate fada in the expansion of fol. 76br a33, even
+					though it appears without its fada in the manuscript itself.)</p>
+				<p>The only abbreviation which has not been noted in the transcription is the
+					standard superscript 'i', since it appears very frequently. (For example, see
+					fol. 76br, a31, b3, and b4.) This is opposed to less common abbreviations of 'i'
+					(for example, the rounded superscript 'i' on fol. 76br, b23).</p>
+				<p>Otherwise, each abbreviation has been represented in unicode format. These
+					include: <list type="abbreviations" rend="bulleted">
+						<item>An m-stroke: represented with a combining macron, e.g. 'laīach'
+							on fol. 76br a35</item>
+						<item>A superscript 'a': e.g. 'tᷧth' on fol. 76br b13</item>
+						<item>An 'us' symbol: e.g. 'imarbꝫ' on fol. 76br b6</item>
+						<item>A reversed 'c', meaning 'con': e.g. 'ↄid' on fol. 76br
+							b10</item>
+						<item>A rounded superscript 'i': e.g. 'tͥar' on fol. 76br b20</item>
+						<item>A 'q' with stroke through its descender, representing 'ar':
+							'gꝗb' on fol. 76br b21</item>
+						<item>The spiritus asper, representing a 'h': represented using a combining
+							breve, not used for any other abbreviation, e.g. 'ot̆a' on fol. 76br
+							b22</item>
+						<item>An 'l' with a suspension stroke, usually representing 'vel':
+							represented with a combining suspension mark, e.g. 'etrl᷃' on
+							fol. 76br b22 </item>
+					</list>
+				</p>
+				<p>Sections numbers have also been provided, which correspond to the section numbers
+					used in Robert Alexander Stewart Macalister's edition of the text: Robert
+					Alexander Stewart Macalister, Lebor Gabála Érenn, Irish Texts
+					Society, 34–35, 39, 41, 44, 5 vols (Dublin: Irish Texts Society, 1938–1956).
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="gle">Irish</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change resp="#EH">
+				<date>2021-03</date>
+				<label>template created</label></change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="gle" xml:id="lebor-gabala-erenn">
+
+		<body>
+			<pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4ff67e5c-33d3-43e4-9247-a37e90d97938" n="76br"/>
+			<div n="174" type="section" subtype="transcription">
+				<lb xml:id="line31"/>
+				<head><seg xml:id="sentence1" corresp="#translation-sentence1"><hi rend="rubricated">do</hi> g<hi rend="rubricated">a</hi>bail cesrach <choice>
+							<expan>an<ex>n</ex>so</expan>
+							<abbr>an̄so</abbr>
+						</choice> sis</seg></head>
+				<p><seg xml:id="sentence2" corresp="#translation-sentence2"><lb xml:id="columnALine32"/><choice>
+							<expan><hi rend="decoInit">C</hi><ex>e</ex><hi rend="rubricated">is</hi><ex>t</ex></expan>
+							<abbr><hi rend="decoInit">C</hi><hi rend="rubricated">is̄</hi></abbr>
+						</choice>
+						<hi rend="rubricated">c</hi>ia cet gabail rogab <lb xml:id="columnALine33"/>eri iar <choice>
+							<expan>tuisti<ex>n</ex></expan>
+							<abbr>tuistī</abbr>
+						</choice> talman</seg>
+					<seg xml:id="sentence3" corresp="#translation-sentence3"><choice>
+							<expan>ní <ex>ansa</ex></expan>
+							<abbr>.nī.</abbr>
+						</choice></seg>
+					<lb xml:id="columnALine34"/><seg xml:id="sentence4" corresp="#translation-sentence4"><hi rend="rubricated">C</hi>esair <choice>
+							<expan>i<ex>n</ex>gen</expan>
+							<abbr>īgen</abbr>
+						</choice> betha <choice>
+							<expan>m<ex>ei</ex>c</expan>
+							<abbr>mc̄</abbr>
+						</choice> noe <lb xml:id="columnALine35"/><choice>
+							<expan>m<ex>ei</ex>c</expan>
+							<abbr>mc̄</abbr>
+						</choice>
+						<choice>
+							<expan>lai<ex>m</ex>ach</expan>
+							<abbr>laīach</abbr>
+						</choice> dalta <choice>
+							<expan>se<ex>de</ex></expan>
+							<abbr>sē</abbr>
+						</choice> sabaill <lb xml:id="columnALine36"/><choice>
+							<expan>m<ex>ei</ex>c</expan>
+							<abbr>mc̄</abbr>
+						</choice>manuaill.</seg>
+					<seg xml:id="sentence5" corresp="#translation-sentence5"><foreign xml:lang="la">ut <choice>
+								<expan>d<ex>icitu</ex>r</expan>
+								<abbr>dr̄</abbr>
+							</choice></foreign></seg></p>
+				<lg>
+					<l><seg xml:id="verseLine1" corresp="#translation-verseLine1"><hi rend="rubricated">C</hi>esair <lb xml:id="columnALine37"/><choice>
+							<expan>i<ex>n</ex>gen</expan>
+							<abbr>īgen</abbr>
+						</choice> betha buain.</seg></l>
+					<l><seg xml:id="verseLine2" corresp="#translation-verseLine2">dalta sabaill <choice>
+							<expan>m<ex>ei</ex>c</expan>
+							<abbr>mc̄</abbr>
+						</choice>
+						<lb xml:id="columnBLine1"/><cb n="2"/> manuaill </seg></l>
+					<l><seg xml:id="verseLine3" corresp="#translation-verseLine3"><choice>
+							<expan>i<ex>n</ex></expan>
+							<abbr>ī</abbr>
+						</choice> cet <choice>
+							<expan>be<ex>n</ex></expan>
+							<abbr>bē</abbr>
+						</choice> calma ro <choice>
+							<expan>cin<ex>n</ex></expan>
+							<abbr>cin̄</abbr>
+						</choice>.</seg></l>
+					<l><seg xml:id="verseLine4" corresp="#translation-verseLine4">rog<lb xml:id="columnBLine2" break="no"/>ab banba ria <choice>
+							<expan>ndilin<ex>d</ex></expan>
+							<abbr>dilin̄</abbr>
+						</choice></seg></l>
+				</lg>
+				<p>
+					<seg xml:id="sentence6" corresp="#translation-sentence6"><hi rend="rubricated">d</hi>oluid cesair <lb xml:id="columnBLine3"/><choice>
+							<expan>iar<ex>um</ex></expan>
+							<abbr>iar̄</abbr>
+						</choice> a <choice>
+							<expan>hin<ex>n</ex>sib</expan>
+							<abbr>hin̄sib</abbr>
+						</choice> marahén ar techedh <lb xml:id="columnBLine4"/>na <choice>
+							<expan>dilin<ex>n</ex></expan>
+							<abbr>dilin̄</abbr>
+						</choice> ar ba doig leisi dú na <choice>
+							<expan>ranc<lb xml:id="columnBLine5" break="no"/>at<ex>ar</ex></expan>
+							<abbr>rancat̄</abbr>
+						</choice> daine riam <choice>
+							<expan>cos<ex>s</ex>i<ex>n</ex></expan>
+							<abbr>cosī</abbr>
+						</choice> ⁊ nach dernad <lb xml:id="columnBLine6"/>olc na <choice>
+							<expan>imarb<ex>us</ex></expan>
+							<abbr>imarbꝫ</abbr>
+						</choice> ⁊ rosaerad ar biast<lb xml:id="columnBLine7" break="no"/>aib ⁊
+						michuirthib <choice>
+							<expan>i<ex>n</ex></expan>
+							<abbr>ī</abbr>
+						</choice>
+						<choice>
+							<expan>domai<ex>n</ex></expan>
+							<abbr>domaī</abbr>
+						</choice> combad <lb xml:id="columnBLine8"/>saer an du <choice>
+							<expan>s<ex>in</ex></expan>
+							<abbr>sī</abbr>
+						</choice> ar <choice>
+							<expan>dilin<ex>n</ex></expan>
+							<abbr>dilin̄</abbr>
+						</choice></seg>
+					<seg xml:id="sentence7" corresp="#translation-sentence7">⁊ <choice>
+							<expan>roin<ex>n</ex>isidar</expan>
+							<abbr>roin̄isidar</abbr>
+						</choice>
+						<lb xml:id="columnBLine9"/><choice>
+							<expan>da<ex>na</ex></expan>
+							<abbr>dā</abbr>
+						</choice> a druide dí éri <choice>
+							<expan>fo<ex>n</ex>n</expan>
+							<abbr>fon̄</abbr>
+						</choice>
+						<choice>
+							<expan>in<ex>n</ex>as</expan>
+							<abbr>in̄as</abbr>
+						</choice>
+						<choice>
+							<expan>s<ex>in</ex></expan>
+							<abbr>sī</abbr>
+						</choice> ⁊ ara <lb xml:id="columnBLine10"/>tised co <choice>
+							<expan>her<ex>iu</ex></expan>
+							<abbr>her̄</abbr>
+						</choice> </seg> <seg xml:id="sentence8" corresp="#translation-sentence8"><choice>
+							<expan><ex>con</ex>id</expan>
+							<abbr>ↄid</abbr>
+						</choice>
+						<choice>
+							<expan>airis<ex>in</ex></expan>
+							<abbr>airisī</abbr>
+						</choice> do <choice>
+							<expan>rias<ex>s</ex></expan>
+							<abbr>rias̄</abbr>
+						</choice><!-- <- need to double check this --> ces<lb xml:id="columnBLine11" break="no"/>air <choice>
+							<expan>f<ex>or</ex></expan>
+							<abbr>f̄</abbr>
+						</choice><choice>
+							<expan>er<ex>in</ex></expan>
+							<abbr>er̄</abbr>
+						</choice>.</seg></p>
+			</div>
+			<div n="176" type="section" subtype="transcription">
+				<p>
+					<seg xml:id="sentence9" corresp="#translation-sentence9"><hi rend="rubricated">d</hi>ia mairt a <choice>
+							<expan>in<ex>n</ex>s<ex>i</ex>b</expan>
+							<abbr>in̄sib</abbr>
+						</choice>
+						<lb xml:id="columnBLine12"/>maraoen ar fut srotha níl .vii. <choice>
+							<expan>mbli<ex>ana</ex></expan>
+							<abbr>mblī</abbr>
+						</choice><lb xml:id="columnBLine13"/> di fri toeb airir Egipte</seg>
+					<seg xml:id="sentence10" corresp="#translation-sentence10">.vii. <choice>
+							<expan>t<ex>ra</ex>th</expan>
+							<abbr>tᷧth</abbr>
+						</choice><lb xml:id="columnBLine14"/>dec <choice>
+							<expan>f<ex>or</ex></expan>
+							<abbr>f̄</abbr>
+						</choice>
+						<choice>
+							<expan>mui<ex>n</ex>cin<ex>n</ex></expan>
+							<abbr>muīcin̄</abbr>
+						</choice> mara caisb</seg>
+					<seg xml:id="sentence11" corresp="#translation-sentence11"> .xx. <choice>
+							<expan>t<ex>ra</ex>th</expan>
+							<abbr>tᷧth</abbr>
+						</choice> o<lb xml:id="columnBLine15"/>muir caisp co muir cimreda.</seg>
+					<seg xml:id="sentence12" corresp="#translation-sentence12"><choice>
+							<expan>t<ex>ra</ex>th</expan>
+							<abbr>tᷧth</abbr>
+						</choice><lb xml:id="columnBLine16"/> di do asia bic <choice>
+							<expan>et<ex>er</ex></expan>
+							<abbr>et̄</abbr>
+						</choice> siria ⁊ muir <choice>
+							<expan>torria<ex>n</ex></expan>
+							<abbr>torriā</abbr>
+						</choice></seg>
+					<lb xml:id="columnBLine17"/>
+					<seg xml:id="sentence13" corresp="#translation-sentence13">.xx. <choice>
+							<expan>t<ex>ra</ex>th</expan>
+							<abbr>tᷧth</abbr>
+						</choice> o asia bic ac seolad co helpa</seg>
+					<lb xml:id="columnBLine18"/>
+					<seg xml:id="sentence14" corresp="#translation-sentence14">.xuiii. <add place="above">trath</add> o elpa co hes<damage agent="hole"><supplied>pain.</supplied></damage></seg>
+					<seg xml:id="sentence15" corresp="#translation-sentence15"><damage agent="hole"><supplied>.i</supplied></damage>x. <choice>
+							<expan>t<ex>ra</ex>th</expan>
+							<abbr>tᷧth</abbr>
+						</choice> o <choice>
+							<expan>espai<ex>n</ex></expan>
+							<abbr>espaī</abbr>
+						</choice><lb xml:id="columnBLine19"/> co <choice>
+							<expan>her<ex>in</ex></expan>
+							<abbr>her̄</abbr>
+						</choice></seg>
+					<seg xml:id="sentence16" corresp="#translation-sentence16"><hi rend="rubricated">d</hi>ia sathairn do riacht <choice>
+							<expan>er<ex>in</ex></expan>
+							<abbr>er̄</abbr>
+						</choice> ⁊<lb xml:id="columnBLine20"/>.x.v. <choice>
+							<expan>f<ex>or</ex>s<ex>i</ex>n</expan>
+							<abbr>f̄sin</abbr>
+						</choice>
+						<choice>
+							<expan>satha<ex>i</ex>rn</expan>
+							<abbr>satharn̄</abbr>
+						</choice>
+						<choice>
+							<expan>si<ex>n</ex></expan>
+							<abbr>sī</abbr>
+						</choice>
+						<choice>
+							<expan>am<ex>al</ex></expan>
+							<abbr>am̄</abbr>
+						</choice>
+						<choice>
+							<expan>asb<ex>er</ex>t</expan>
+							<abbr>asb̄t</abbr>
+						</choice>
+						<choice>
+							<expan>i<ex>n</ex></expan>
+							<abbr>ī</abbr>
+						</choice> fili</seg>
+				</p>
+				<lg>
+					<l><seg xml:id="verseLine5" corresp="#translation-verseLine5"><hi rend="rubricated">C</hi>esair cid dia <choice>
+							<expan>ta<ex>n</ex>ic</expan>
+							<abbr>taīc</abbr>
+						</choice>
+						<choice>
+							<expan>si<ex>n</ex></expan>
+							<abbr>sī</abbr>
+						</choice></seg>
+					</l>
+					<l><seg xml:id="verseLine6" corresp="#translation-verseLine6"><choice>
+							<expan>t<ex>ri</ex>ar</expan>
+							<abbr>tͥar</abbr>
+						</choice> fer ar co<lb xml:id="columnBLine21" break="no"/>ecait fo lí.</seg></l>
+					<l><seg xml:id="verseLine7" corresp="#translation-verseLine7">dia mairt ro gluais <choice>
+							<expan>g<ex>ar</ex>b</expan>
+							<abbr>gꝗb</abbr>
+						</choice>
+						<lb xml:id="columnBLine22" break="no"/>an <choice>
+							<expan>s<ex>c</ex>e<ex>l</ex></expan>
+							<abbr>sē</abbr>
+						</choice>.</seg></l>
+					<l><seg xml:id="verseLine8" corresp="#translation-verseLine8"><choice>
+							<expan>ot<ex>h</ex>a</expan>
+							<abbr>ot̆a</abbr>
+						</choice>
+						<choice>
+							<expan>in<ex>n</ex>si</expan>
+							<abbr>in̄si</abbr>
+						</choice> maraoen.</seg></l>
+				</lg>
+				<trailer><choice>
+						<expan>ocus <ex>a</ex>r<ex>ai</ex>l<ex>e</ex></expan>
+						<abbr>etrl᷃</abbr>
+					</choice></trailer>
+			</div>
+		</body>
+
+	</text>
+</TEI>
