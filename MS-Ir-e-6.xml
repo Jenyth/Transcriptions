@@ -493,11 +493,171 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20250221160543057",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-21T16:05:43.057Z",
+	"dcterms:modified": "2025-02-21T16:05:43.057Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Jenyth",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jenyth"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20250221160543057#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20250221160543057#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "https://www.wikidata.org/wiki/Q120138186",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20250221160719176",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-21T16:07:19.176Z",
+	"dcterms:modified": "2025-02-21T16:07:19.176Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Jenyth",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jenyth"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20250221160719176#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20250221160719176#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://www.wikidata.org/wiki/Q140296",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="prose">
-				<head>Sample Title</head><p>A ccio¯n dá ḟiṫċid blíaḋan dá eis so do ċuir feíniúsa</p><p>farsa na scolla coitćiona riainraiḋte na suiḋe ꝗr raġ</p><p>sénꝗi*, agus is air sgollaiḃ so san ngréig do rugaḋ an</p><p>oirḋeirc do ḟeinísa fꝗsaġ, mꝗ ta Nírl mac feíníusa.</p><p>Agus do foġlumag san na huile ḃéalráḋ é, do cuireiḋ*</p><p>an ġloiḋilge an abdigle ceꝗta an tan so, agus do roi-</p><p>neaḋ na ċúig ṫeangṫaíḃ í, mꝗ ta bealraḋ na seanachie*</p><p>béalrád na ḃfilíḋe, béalráḋ na ḃfisigiḋe, béalrádh na</p><p>na feíne, agus an béalráḋ coitċoi¯n</p><p/><p/>
+				<head>Sample Title</head><p>A ccio¯n dá ḟiṫċid blíaḋan dá eis so do ċuir <persName key="Fénius" ref="https://www.wikidata.org/wiki/Q140296">feíniúsa</persName></p><p>farsa na scolla coitćiona riainraiḋte na suiḋe ꝗr raġ</p><p>sénꝗi*, agus is air sgollaiḃ so san ngréig do rugaḋ an</p><p>oirḋeirc do ḟeinísa fꝗsaġ, mꝗ ta <persName key="Nél" ref="https://www.wikidata.org/wiki/Q120138186" cert="high" type="fictional">Níul</persName> mac feíníusa.</p><p>Agus do foġlumag san na huile ḃéalráḋ é, do cuireiḋ*</p><p>an ġloiḋilge an abdigle ceꝗta an tan so, agus do roi-</p><p>neaḋ na ċúig ṫeangṫaíḃ í, mꝗ ta bealraḋ na seanachie*</p><p>béalrád na ḃfilíḋe, béalráḋ na ḃfisigiḋe, béalrádh na</p><p>na feíne, agus an béalráḋ coitċoi¯n ata anois ꝗi* bun</p><p>Agus do ċuiniṁ slioū níuil</p><p/>
 			</div><div resp="Jenyth" type="translation" xml:lang="ga"><p>At the end of </p></div>
 			<div type="notes">
 				<head>Notes</head>
