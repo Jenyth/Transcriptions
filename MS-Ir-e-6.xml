@@ -80,7 +80,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?date_annotation_20190814214849331#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/note[2]/date"
+			"rdf:value": "TEI/text/body/div[3]/note[2]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -159,7 +159,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?link_annotation_20190814214849333#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[3]/note[2]/ref"
+			"rdf:value": "TEI/text/body/div[4]/note[2]/ref"
 		}
 	},
 	"oa:hasBody": {
@@ -237,7 +237,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?organization_annotation_20190814214849334#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/note/orgName"
+			"rdf:value": "TEI/text/body/div[5]/note/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -317,7 +317,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?correction_annotation_20190814214849405#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/head/choice"
+			"rdf:value": "TEI/text/body/div[5]/head/choice"
 		}
 	},
 	"oa:hasBody": {
@@ -396,7 +396,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?person_annotation_20190814214849407#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/note[2]/persName"
+			"rdf:value": "TEI/text/body/div[5]/note[2]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -476,7 +476,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?work_annotation_20190814214849409#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/note[2]/title"
+			"rdf:value": "TEI/text/body/div[3]/note[2]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -497,8 +497,8 @@
 	<text>
 		<body>
 			<div type="prose">
-				<head>Sample Title</head><p>A ccio¯n dá ḟiṫċid blíaḋan dá eis so do ċuir feíniúsa</p><p>farsa na scolla coitćiona riainraiḋte na suiḋe ꝗr </p>
-			</div>
+				<head>Sample Title</head><p>A ccio¯n dá ḟiṫċid blíaḋan dá eis so do ċuir feíniúsa</p><p>farsa na scolla coitćiona riainraiḋte na suiḋe ꝗr raġ</p><p>sénꝗi*, agus is air sgollaiḃ so san ngréig do rugaḋ an</p><p>oirḋeirc do ḟeinísa fꝗsaġ, mꝗ ta Nírl mac feíníusa.</p><p>Agus do foġlumag san na huile ḃéalráḋ é, do cuireiḋ*</p><p>an ġloiḋilge an abdigle ceꝗta an tan so, agus do roi-</p><p>neaḋ na ċúig ṫeangṫaíḃ í, mꝗ ta bealraḋ na seanachie*</p><p>béalrád na ḃfilíḋe, béalráḋ na ḃfisigiḋe, béalrádh na</p><p>na feíne, agus an béalráḋ coitċoi¯n</p><p/><p/>
+			</div><div resp="Jenyth" type="translation" xml:lang="ga"><p>At the end of </p></div>
 			<div type="notes">
 				<head>Notes</head>
 				<note n="1" type="scholarlyNote">The poem has a suggestion of the magical imagery of Kenneth Leslie?s By Stubborn Stars.</note>
